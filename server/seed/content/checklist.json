@@ -1,0 +1,29 @@
+[
+{"key":"checklist.before_ihram.debts","section":"before_ihram","order":1,"audience":"all","label":{"en":"Pay all debts","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §35; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.before_ihram.wrongs","section":"before_ihram","order":2,"audience":"all","label":{"en":"Redress all wrongs","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §35; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.before_ihram.will","section":"before_ihram","order":3,"audience":"all","label":{"en":"Write your will","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §35; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.ihram.hair","section":"ihram","order":1,"audience":"all","label":{"en":"Remove unwanted hair","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §18; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.ihram.nails","section":"ihram","order":2,"audience":"all","label":{"en":"Trim nails","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §18; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.ihram.ghusl","section":"ihram","order":3,"audience":"all","label":{"en":"Make ghusl","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §18; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.ihram.wudhu","section":"ihram","order":4,"audience":"all","label":{"en":"Make wudhu","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §18; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.ihram.clothing","section":"ihram","order":5,"audience":"all","label":{"en":"Put on Ihram clothing","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §18; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.tawaf.shoulder","section":"tawaf","order":1,"audience":"men","label":{"en":"Cover right shoulder","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §25; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.tawaf.rakaat","section":"tawaf","order":2,"audience":"all","label":{"en":"Offer 2 rakaats","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §25; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.tawaf.zamzam","section":"tawaf","order":3,"audience":"all","label":{"en":"Drink Zamzam","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §25; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.tawaf.dua","section":"tawaf","order":4,"audience":"all","label":{"en":"Make Dua","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §25; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.saee.rounds","section":"saee","order":1,"audience":"all","label":{"en":"Complete 7 rounds of Sa'ee, ending at Al-Marwah","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §26; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+,
+{"key":"checklist.completion.hair","section":"completion","order":1,"audience":"all","label":{"en":"Shave or trim hair","ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":"Item named in CLAUDE.md §29; wording and page not yet verified against the guide"},"reviewStatus":"needs_review"}
+]

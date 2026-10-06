@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Calm Islamic palette: warm off-white, deep green, muted gold. */
+@theme {
+  --color-bg: var(--uc-bg);
+  --color-surface: var(--uc-surface);
+  --color-surface-2: var(--uc-surface-2);
+  --color-ink: var(--uc-ink);
+  --color-muted: var(--uc-muted);
+  --color-line: var(--uc-line);
+  --color-primary: var(--uc-primary);
+  --color-primary-ink: var(--uc-primary-ink);
+  --color-primary-soft: var(--uc-primary-soft);
+  --color-accent: var(--uc-accent);
+  --color-accent-soft: var(--uc-accent-soft);
+  --color-danger: var(--uc-danger);
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Arabic", sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Amiri", "Scheherazade New", "Geeza Pro", "Traditional Arabic", serif;
+}
+
+:root {
+  --uc-bg: #f7f4ee;
+  --uc-surface: #ffffff;
+  --uc-surface-2: #f0ece3;
+  --uc-ink: #22262a;
+  --uc-muted: #5c6168;
+  --uc-line: #e3ddd0;
+  --uc-primary: #1f5135;
+  --uc-primary-ink: #ffffff;
+  --uc-primary-soft: #e3eee6;
+  --uc-accent: #8a6d2c;
+  --uc-accent-soft: #f4ecd9;
+  --uc-danger: #a3352b;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --uc-bg: #17191b;
+  --uc-surface: #212427;
+  --uc-surface-2: #2a2e31;
+  --uc-ink: #ebe8e1;
+  --uc-muted: #a8adb2;
+  --uc-line: #363a3e;
+  --uc-primary: #6fbf8e;
+  --uc-primary-ink: #0f2a1b;
+  --uc-primary-soft: #23382b;
+  --uc-accent: #d2b46f;
+  --uc-accent-soft: #3a3324;
+  --uc-danger: #f08a7e;
+  color-scheme: dark;
+}
+
+/* Text size preference scales every rem-based size. */
+:root { font-size: 17px; }
+:root[data-font-size="sm"] { font-size: 15px; }
+:root[data-font-size="md"] { font-size: 17px; }
+:root[data-font-size="lg"] { font-size: 19px; }
+:root[data-font-size="xl"] { font-size: 22px; }
+
+html, body { background: var(--uc-bg); color: var(--uc-ink); }
+body { @apply font-sans antialiased; -webkit-tap-highlight-color: transparent; }
+#root { min-height: 100dvh; }
+
+.arabic-text {
+  font-family: var(--font-arabic);
+  line-height: 2.1;
+  direction: rtl;
+  text-align: right;
+}
+
+:focus-visible { outline: 3px solid var(--uc-accent); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
