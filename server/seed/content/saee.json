@@ -1,0 +1,5 @@
+[
+{"key":"saee.guidance","group":"saee","order":1,"audience":"all","title":{"en":"Performing Sa'ee","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"saee.green_lights","group":"saee","order":2,"audience":"men","title":{"en":"Between the green lights (men)","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"saee.complete","group":"saee","order":3,"audience":"all","title":{"en":"After Sa'ee","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"}
+]

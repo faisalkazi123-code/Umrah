@@ -1,0 +1,6 @@
+[
+{"key":"ihram.guidance.men","group":"ihram","order":1,"audience":"men","title":{"en":"Ihram guidance for men","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"ihram.guidance.women","group":"ihram","order":2,"audience":"women","title":{"en":"Ihram guidance for women","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"talbiyah.guidance.men","group":"talbiyah","order":1,"audience":"men","title":{"en":"Talbiyah guidance for men","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"talbiyah.guidance.women","group":"talbiyah","order":2,"audience":"women","title":{"en":"Talbiyah guidance for women","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"}
+]

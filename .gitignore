@@ -1,0 +1,9 @@
+node_modules
+dist
+dist-server
+dist-demo
+.env
+*.log
+playwright-report
+test-results
+.pgdata

@@ -1,0 +1,5 @@
+[
+{"key":"hajj.tamattu","group":"hajj_types","order":1,"audience":"all","title":{"en":"Tamattu","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"hajj.qiraan","group":"hajj_types","order":2,"audience":"all","title":{"en":"Qiraan","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"hajj.ifraad","group":"hajj_types","order":3,"audience":"all","title":{"en":"Ifraad","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"}
+]

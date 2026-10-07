@@ -1,0 +1,6 @@
+[
+{"key":"haram.entering","group":"haram","order":1,"audience":"all","title":{"en":"Entering Masjid Al-Haram","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"tawaf.walking.circuits_1_3","group":"tawaf","order":1,"audience":"men","title":{"en":"Circuits 1–3: brisk walking (men)","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"tawaf.walking.circuits_4_7","group":"tawaf","order":2,"audience":"all","title":{"en":"Circuits 4–7: normal walking","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"tawaf.after","group":"tawaf_after","order":1,"audience":"all","title":{"en":"After Tawaf","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"}
+]

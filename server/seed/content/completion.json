@@ -1,0 +1,4 @@
+[
+{"key":"completion.men","group":"completion","order":1,"audience":"men","title":{"en":"Shaving / trimming for men","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"},
+{"key":"completion.women","group":"completion","order":2,"audience":"women","title":{"en":"Trimming for women","ar":null},"body":{"en":null,"ar":null},"source":{"sourceDocument":"Umrah Guide.pdf","sourceSection":null,"sourcePage":null,"sourceReference":null},"reviewStatus":"awaiting_source"}
+]
