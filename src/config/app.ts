@@ -1,9 +1,11 @@
+import logo from "@/assets/logo.svg";
+
 /** Central branding/config. The name is temporary until the final brand is approved. */
 export const APP_CONFIG = {
   name: "Umrah Companion",
   shortName: "Umrah",
   version: "0.1.0",
-  logo: "/icons/icon.svg",
+  logo,
   icon: "/icons/icon-192.png",
   themeColor: "#1f5135",
   /** Leave null until real pages/addresses exist; the UI hides links that are not configured. */

@@ -36,8 +36,8 @@ function precacheServiceWorker(): Plugin {
   };
 }
 
-export default defineConfig({
-  plugins: [react(), tailwindcss(), precacheServiceWorker()],
+export default defineConfig(({ mode }) => ({
+  plugins: [react(), tailwindcss(), ...(mode === "demo" ? [] : [precacheServiceWorker()])],
   resolve: {
     alias: { "@": r("./src"), "@shared": r("./shared"), "@content": r("./server/seed/content") },
   },
@@ -48,5 +48,9 @@ export default defineConfig({
   preview: {
     proxy: { "/api": "http://localhost:3001" },
   },
-  build: { outDir: "dist", sourcemap: false, target: "es2022" },
-});
+  build:
+    mode === "demo"
+      ? // Single bundle so scripts/inline-demo.mjs can inline it into one page.
+        { outDir: "dist-demo", sourcemap: false, target: "es2022", assetsInlineLimit: 100_000, rollupOptions: { output: { inlineDynamicImports: true } } }
+      : { outDir: "dist", sourcemap: false, target: "es2022" },
+}));

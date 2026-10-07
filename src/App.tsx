@@ -1,7 +1,8 @@
 import { lazy, Suspense, type ComponentType } from "react";
-import { createBrowserRouter, Navigate, Outlet, RouterProvider, useLocation } from "react-router";
+import { createBrowserRouter, createMemoryRouter, Navigate, Outlet, RouterProvider, useLocation } from "react-router";
 import { AppShell } from "@/components/AppShell";
 import { ErrorState, LoadingSkeleton } from "@/components/States";
+import { IS_DEMO } from "@/config/mode";
 import { usePrefsStore } from "@/store/prefsStore";
 
 // Each screen is its own chunk; the service worker precaches all of them for offline use.
@@ -84,7 +85,7 @@ export const routes = [
   },
 ];
 
-const router = createBrowserRouter(routes);
+const router = IS_DEMO ? createMemoryRouter(routes) : createBrowserRouter(routes);
 
 export default function App() {
   return <RouterProvider router={router} />;

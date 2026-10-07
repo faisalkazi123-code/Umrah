@@ -1,3 +1,4 @@
+import { IS_DEMO } from "@/config/mode";
 import { getDb } from "./db";
 import type { OutboxOp } from "./syncTypes";
 
@@ -24,12 +25,14 @@ function emit(patch: Partial<SyncStatus>) {
 }
 
 export function subscribeSync(l: Listener) {
+  if (IS_DEMO) return () => false;
   listeners.add(l);
   l(status);
   return () => listeners.delete(l);
 }
 
 export async function enqueue(op: OutboxOp) {
+  if (IS_DEMO) return; // the demo has no server to sync with
   const db = await getDb();
   await db.add("outbox", op);
   emit({ pending: await db.count("outbox") });
@@ -108,6 +111,7 @@ export async function flush() {
 }
 
 export function startSync() {
+  if (IS_DEMO) return;
   void (async () => emit({ pending: await (await getDb()).count("outbox") }))();
   window.addEventListener("online", () => void flush());
   void flush();

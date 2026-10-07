@@ -6,16 +6,17 @@ import { Card } from "@/components/Card";
 import { ConfirmationDialog } from "@/components/Dialog";
 import { FontSizeSelector, LanguageSwitcher, ThemeSwitcher } from "@/components/Settings";
 import { APP_CONFIG } from "@/config/app";
+import { IS_DEMO } from "@/config/mode";
 import { subscribeSync, type SyncStatus } from "@/lib/sync";
 import { useJourneyStore } from "@/store/journeyStore";
 import { useToastStore } from "@/store/toastStore";
 
-type OfflineState = "ready" | "pending" | "unsupported";
+type OfflineState = "ready" | "pending" | "unsupported" | "demo";
 
 function useOfflineState(): OfflineState {
-  const [state, setState] = useState<OfflineState>(() => ("serviceWorker" in navigator ? "pending" : "unsupported"));
+  const [state, setState] = useState<OfflineState>(() => (IS_DEMO ? "demo" : "serviceWorker" in navigator ? "pending" : "unsupported"));
   useEffect(() => {
-    if (!("serviceWorker" in navigator)) return;
+    if (IS_DEMO || !("serviceWorker" in navigator)) return;
     let alive = true;
     void navigator.serviceWorker.getRegistration().then((reg) => {
       if (alive && reg?.active) setState("ready");
@@ -73,7 +74,15 @@ export default function Settings() {
       </Section>
       <Section title={t("settings.offline")}>
         <p className="text-muted" data-testid="offline-status">
-          {t(offline === "ready" ? "settings.offlineReady" : offline === "pending" ? "settings.offlineNotReady" : "settings.offlineUnsupported")}
+          {t(
+            offline === "ready"
+              ? "settings.offlineReady"
+              : offline === "pending"
+                ? "settings.offlineNotReady"
+                : offline === "demo"
+                  ? "settings.offlineDemo"
+                  : "settings.offlineUnsupported",
+          )}
         </p>
       </Section>
       {sync && (

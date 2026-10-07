@@ -158,6 +158,7 @@
     "offlineReady": "All journey screens, duas and the checklist are stored on this device.",
     "offlineNotReady": "Offline storage is being prepared. Keep the app open while connected.",
     "offlineUnsupported": "This browser does not support offline storage.",
+    "offlineDemo": "This is a preview. Install the full app for offline use. Your progress here is still saved in this browser.",
     "sync": "Sync",
     "syncPending": "{{count}} change(s) waiting to sync",
     "syncIdle": "All changes saved",
